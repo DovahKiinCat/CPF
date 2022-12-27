@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0%;
+    z-index: 9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: #1465bb;
+}
+
+.inputs {
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 15%;
+    box-shadow: 3px 3px 25px  black;
+    border-radius: 60px 0px 60px 0px;
+    -moz-border-radius: 60px 0px 60px 0px;
+    -webkit-border-radius: 60px 0px 60px 0px;
+    background-color: #2196f3;
+    font-weight: bold;
+}
+
+.incpf {
+    padding: 10px;
+}
+
+.input-cpf {
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    font-weight: bold;
+}
+
+[name = "icpf"] {
+    position: relative;
+    display: block;
+    border: none;
+    font-weight: bold;
+}
+
+.ebtn, .cbtn {
+    color: #FFF;
+    position: relative;
+    display: inline-block;
+    top: 15px;
+    padding: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(63, 190, 51);
+}
+
+.ebtn:hover, .cbtn:hover {
+    background-color: rgb(49, 153, 40);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.cbtn {
+    display: inline-block;
+}
+
+.result {
+    position: absolute;
+    display: block;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    font-weight: bold;
+    font-size: 24px;
+}
